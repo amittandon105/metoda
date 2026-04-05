@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Metoda
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/txndb
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+server:
+  port: 8080
